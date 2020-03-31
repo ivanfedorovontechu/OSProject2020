@@ -1,0 +1,3 @@
+rootProject.name='OSProject'
+include ':app'
+include ':benchmark2'

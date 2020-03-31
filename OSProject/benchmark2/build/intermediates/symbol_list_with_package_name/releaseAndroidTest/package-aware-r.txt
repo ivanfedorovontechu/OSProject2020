@@ -1,0 +1,4 @@
+com.example.benchmark2.test
+drawable logo
+id clock_state
+layout isolation_activity

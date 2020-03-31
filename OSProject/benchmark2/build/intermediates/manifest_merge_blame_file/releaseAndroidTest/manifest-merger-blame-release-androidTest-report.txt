@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.benchmark2.test" >
+4
+5    <uses-sdk
+5-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:6:5-8:41
+6        android:minSdkVersion="14"
+6-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:7:9-35
+7        android:targetSdkVersion="28" />
+7-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:8:9-38
+8
+9    <instrumentation
+9-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:10:5-15:63
+10        android:name="androidx.benchmark.junit4.AndroidBenchmarkRunner"
+10-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:11:9-72
+11        android:functionalTest="false"
+11-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:12:9-39
+12        android:handleProfiling="false"
+12-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:13:9-40
+13        android:label="Tests for com.example.benchmark2.test"
+13-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:14:9-62
+14        android:targetPackage="com.example.benchmark2.test" />
+14-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:15:9-60
+15
+16    <!--
+17    This is needed to write benchmark report data to an external directory during instrumented
+18    tests to allow the accompanying androidx.benchmark gradle plugin to pull the reports onto host
+19     machine after the tests are done running.
+20    -->
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[androidx.benchmark:benchmark-common:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8c7f0910d12c5be5f549d40bcca8192a\jetified-benchmark-common-1.0.0\AndroidManifest.xml:29:5-81
+21-->[androidx.benchmark:benchmark-common:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8c7f0910d12c5be5f549d40bcca8192a\jetified-benchmark-common-1.0.0\AndroidManifest.xml:29:22-78
+22    <uses-permission android:name="android.permission.REORDER_TASKS" />
+22-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:24:5-72
+22-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:24:22-69
+23    <!--
+24      Important: disable debugging for accurate performance results
+25
+26      In a com.android.library project, this flag must be disabled from this
+27      manifest, as it is not possible to override this flag from Gradle.
+28    -->
+29    <application android:debuggable="false" >
+29-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:22:5-27:19
+29-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:23:9-35
+30        <uses-library android:name="android.test.runner" />
+30-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:26:9-60
+30-->C:\dev\android\OSProject\benchmark2\build\intermediates\tmp\manifest\androidTest\release\manifestMerger1352747716145045961.xml:26:23-57
+31        <!-- Activity used to block background content while benchmarks are running -->
+32        <activity
+32-->[androidx.benchmark:benchmark-common:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8c7f0910d12c5be5f549d40bcca8192a\jetified-benchmark-common-1.0.0\AndroidManifest.xml:34:9-37:20
+33            android:name="androidx.benchmark.IsolationActivity"
+33-->[androidx.benchmark:benchmark-common:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8c7f0910d12c5be5f549d40bcca8192a\jetified-benchmark-common-1.0.0\AndroidManifest.xml:35:13-64
+34            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+34-->[androidx.benchmark:benchmark-common:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8c7f0910d12c5be5f549d40bcca8192a\jetified-benchmark-common-1.0.0\AndroidManifest.xml:36:13-77
+35        </activity>
+36        <activity
+36-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:27:9-33:20
+37            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+37-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:28:13-99
+38            android:theme="@android:style/Theme" >
+38-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:29:13-49
+39            <intent-filter>
+39-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:31:17-69
+40-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:31:25-66
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:34:9-40:20
+44            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+44-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:35:13-95
+45            android:theme="@android:style/Theme" >
+45-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:36:13-49
+46            <intent-filter>
+46-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:31:17-69
+47-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:31:25-66
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:41:9-47:20
+51            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+51-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:42:13-103
+52            android:theme="@android:style/Theme.Dialog" >
+52-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:43:13-56
+53            <intent-filter>
+53-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:31:17-69
+54-->[androidx.test:core:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0003c959e505194cf0f88c08d8667ef7\jetified-core-1.2.0\AndroidManifest.xml:31:25-66
+55            </intent-filter>
+56        </activity>
+57    </application>
+58
+59</manifest>
